@@ -1,0 +1,58 @@
+:root {
+    --green: #00b30c;
+    --gray1: #353537;
+    --gray2: #eaeaeb;
+    --gray3: #777777;
+}
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700 !important;
+}
+header{
+    background-image: url(../img/hero.jpg);
+    min-height: 30rem;
+    background-size: cover;
+}
+a.btn-outline-light:hover{
+    color: black !important;
+}
+.header .nav-link{
+    color:white !important;
+}
+.caption{
+    min-height: 25rem;
+}
+.title{
+    font-weight: 700;
+}
+h2{
+    font-size: 3rem !important;
+}
+.category{
+    padding-bottom: 60px;
+    overflow: hidden;
+    height: calc(auto+30px);
+}
+.category h3:before{
+    content: "";
+    display: block;
+    margin: 5px auto 20px auto;
+    height: 1px;
+    width: 60px;
+    background-color: #00b30c;
+    transition: all .3s ease;
+}
+.category:hover h3:before{
+    width: 180px;
+}
+.category p{
+    opacity: 0;
+    padding-top: 60px;
+    transition: all .3s ease;
+}
+.category:hover p{
+    opacity: 1;
+    display: block;
+    padding-top: 10px;
+    color:rgb(126, 89, 89);
+}
